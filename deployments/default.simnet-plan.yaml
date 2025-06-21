@@ -50,13 +50,8 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
-            contract-name: coordinator-verification
+            contract-name: transfer-coordination
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/coordinator-verification.clar
-            clarity-version: 2
-        - emulated-contract-publish:
-            contract-name: cost-optimization
-            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/cost-optimization.clar
+            path: contracts/transfer-coordination.clar
             clarity-version: 2
       epoch: "2.5"

@@ -5,13 +5,9 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.coordinator-verification]
-path = 'contracts/coordinator-verification.clar'
-clarity_version = 2
-epoch = 2.5
 
-[contracts.cost-optimization]
-path = 'contracts/cost-optimization.clar'
+[contracts.transfer-coordination]
+path = 'contracts/transfer-coordination.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
